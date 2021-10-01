@@ -9,7 +9,10 @@ import dice_image_3 from "../../public/images/dice_image_3.png";
 import dice_image_4 from "../../public/images/dice_image_4.png";
 import dice_image_5 from "../../public/images/dice_image_5.png";
 import dice_image_6 from "../../public/images/dice_image_6.png";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
+import { faSearch } from "@fortawesome/free-solid-svg-icons"; 
+import { faTimes} from "@fortawesome/free-solid-svg-icons"; 
+import { faCircle} from "@fortawesome/free-solid-svg-icons";// import the icons you need
 
 export default function rendertable() {
   const [diceNumber,SetdiceNumber]=useState(1);
@@ -124,6 +127,7 @@ export default function rendertable() {
             <div className="col-sm-12 text-center">
                 <button className="btn btn-success" onClick={newGame}> New Game</button>
             </div>
+          
         </div>
         <div className="row">
             <div className="col-sm-6">

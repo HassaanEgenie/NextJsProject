@@ -32,6 +32,9 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h3 className={styles.title}>
+            Click to Go  <Link  href={{pathname:"/changebutton/Game"}}><a > Change Button </a></Link>
+        </h3>
+        <h3 className={styles.title}>
             Click to Go to table <Link  href={{pathname:"/dicegame/game"}}><a >Dice Game</a></Link>
         </h3>
         <h3 className={styles.title}>
